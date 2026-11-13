@@ -411,7 +411,7 @@ func giCheckLicence(c *Ctx, channel string) error {
 	case "not_entitled":
 		return Backend("ERR_LICENSE_NOT_ENTITLED")
 	case "trial":
-		return Backend("ERR_LICENSE_FULL_REQUIRED")
+		return nil
 	}
 	c.Verbosef("The game licence could not be checked (%s); continuing", Dash(state))
 	return nil
