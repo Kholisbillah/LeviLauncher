@@ -103,3 +103,4 @@ For app development, keep using the existing `frontend/`, `build/`, and Wails ta
 ## License
 
 This project is licensed under GPL-3.0-only. The full license text is in `COPYING`, and the bundled third-party components are listed in `THIRD_PARTY_NOTICES`.
+well
